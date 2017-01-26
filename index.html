@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" href="style.css">
+   <meta charset="utf-8">
+   <title>Formulaire</title>
+ </head>
+ <body>
+   <form action="index.html" method="post">
+     <fieldset class="field1">
+       <legend class="titre1">Votre identité</legend>
+       <ol>
+         <li><label for="nom">Nom : </label><input type="text" name="nom" placeholder="Nom"></li>
+         <li><label for="prénom">Prénom : </label><input type="text" name="Prénom" placeholder="Prénom"></li>
+         <li><label for="mail">adresse mail : </label><input type="text" name="" placeholder="Adresse mail"></li>
+       </ol>
+     </fieldset>
+     <fieldset class="field2">
+       <legend class="titre2">Adresse de livraison</legend>
+       <ol>
+         <li><label for="adresse">Adresse : </label><textarea name="adresse" rows="8" cols="25"></textarea></li>
+         <li><label for="postal"> Code postal : </label><input type="text" name="postal" placeholder="Code postal"></li>
+         <li><label for="ville">Ville : </label><input type="text" name="ville" placeholder="Ville"></li>
+       </ol>
+     </fieldset>
+     <fieldset class="field3">
+       <legend class="titre3">Imformation de réglement</legend>
+       <ol>
+         <li><p>Type de carte bancaire :</p></li>
+         <input type="radio" name="visa" value="visa">
+         <label for="visa">VISA</label><br/>
+         <input type="radio" name="Mcb" value="">
+         <label for="Mcb">Mastercard</label>
+         <li><label for="NCB">Numéro de carte : </label><input type="text" name="NCB" placeholder="Numéro de carte "></li>
+         <li><label for="CS">Code de sécurité : </label><input type="text" name="CS" placeholder="Code de sécurité"></li>
+         <li><label for="NDT">Nom du titulaires : </label><input type="text" name="NDT" placeholder="Nom du titulaire"></li>
+       </ol>
+     </fieldset>
+     <input type="submit" name="validez" value="J'achète !">
+   </form>
+ </body>
+</html>
