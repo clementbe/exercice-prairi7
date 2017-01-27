@@ -1,3 +1,6 @@
-#blue {background-color: #2574A9}
-#purpul {background-color: #9A12B3}
-#pink {background-color: #DB0A5B}
+.blue {background-color: #2574A9}
+.purpul {background-color: #9A12B3}
+.pink {background-color: #DB0A5B}
+ul{
+  list-style: none;
+}
